@@ -1,0 +1,17 @@
+public class felino {
+     String tipo1;
+      String tipo2;
+      String comeTipo1;
+      String comeTipo2;
+      
+    public static void main(String args[]) {
+        felino obj1 = new felino();
+         obj1.tipo1 = "gato";
+
+        felino obj2 = new felino();
+        obj2.tipo2 = "leão";
+     
+
+System.out.println("meu tipo de felino e: " +  obj1.tipo1);
+System.out.println("meu tipo de felino e: " +  obj2.tipo2);}
+}
